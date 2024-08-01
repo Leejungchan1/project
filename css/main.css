@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* 본문 */
+/* .wrap --------------------------------------------------------*/
+#wrap{}
+
+/* .header --------------------------------------------------------*/
+.header{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 20px;
+}
+
+/* .head_in --------------------------------------------------------*/
+.head_in{}
+
+.logo{}
+
+.logo a{
+    display: block;
+    width: 250px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.nav{}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main > li{}
+
+.main > li > a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    background-color: wheat;
+    text-align: center  ;
+    line-height: 80px;
+}
+
+.sub{}
+
+.sub > li{
+    position: relative;
+}
+
+.sub > li > a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    background-color: wheat;
+    text-align: center  ;
+    line-height: 80px;
+    transition: all 0.3s;
+    display: none;
+}
+
+.sub > li:hover > a{
+    background-color: violet;
+}
+
+.sub_in{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.sub_in li{}
+
+.sub_in li a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    background-color: wheat;
+    text-align: center  ;
+    line-height: 80px;
+    transition: all 0.3s;
+    display: none;
+}
+
+.sub_in li:hover a{
+    background-color: violet;
+}
+
+/* .contents --------------------------------------------------------*/
+.contents{}
+
+.slide_img{
+    width: 1920px;
+    height: 600px;
+    background-color:greenyellow ;
+}
+
+.left_move{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.left_move li{}
+
+.left_move li a{}
+
+.left_move .slick-dots{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.left_move .slick-dots li{
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.left_move .slick-dots li button{
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    text-indent: -9999px;
+    transition: all 0.3s;
+}
+
+.left_move .slick-dots li.slick-active button{
+    width: 50px;
+    background-color: black;
+}
+
+
+/* .footer --------------------------------------------------------*/
+.footer{}
+
