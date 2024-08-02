@@ -1,5 +1,48 @@
 @charset "UTF-8";
 
-@media (max-width: 360px) {
+@media screen and (max-width:1168px) {
+
+    /* header ------------------------------------------------------- */
+    .head_up{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:468px) {
+
+    /* header ------------------------------------------------------- */
+    .header .logo{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+
+    .header nav{
+        display: none;
+    }
+
+    .header .menu-toggle-btn{
+        display: block;
+    }
     
+    .main_in{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_item2{
+        margin-top: 20px;
+    }
+
+    .new_in{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new_item2{
+        margin-top: 20px;
+    }
+
 }
