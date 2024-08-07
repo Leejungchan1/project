@@ -56,19 +56,71 @@
                     </li>
 
                     <li>
-                        <a href="#">신규입고상품</a>
+                        <a href="#" onclick="alert('준비 중 입니다.')">신규입고상품</a>
                     </li>
 
                     <li>
-                        <a href="#">재입고상품</a>
+                        <a href="#" onclick="alert('준비 중 입니다.')">재입고상품</a>
                     </li>
 
                     <li>
-                        <a href="#">추천상품</a>
+                        <a href="#" onclick="alert('준비 중 입니다.')">추천상품</a>
                     </li>
 
                     <li>
-                        <a href="#">예약상품</a>
+                        <a href="#" onclick="alert('준비 중 입니다.')">예약상품</a>
+                    </li>
+                </ul> <!-- main -->
+            </nav> <!-- nav -->
+
+            <nav class="m_nav">
+                <ul class="m_main">
+                    <li>
+                        <a href="#">판매상품</a>
+                        <ul class="m_sub">
+                            <li>
+                                <a href="#">카드파이트 뱅가드</a>
+                                <ul class="m_sub_in">
+                                    <li><a href="#">뱅가드 부스터박스</a></li>
+                                    <li><a href="#">트라이얼덱</a></li>
+                                    <li><a href="#">뱅가드용 프로텍터</a></li>
+                                </ul> <!-- sub_in -->
+                            </li>
+
+                            <li>
+                                <a href="#">배틀스피리츠</a>
+                                <ul class="m_sub_in">
+                                    <li><a href="#">배틀스피리츠 부스터박스</a></li>
+                                    <li><a href="#">스타터세트</a></li>
+                                    <li><a href="#">배틀스피리츠용 프로텍터</a></li>
+                                </ul> <!-- sub_in -->
+                            </li>
+
+                            <li>
+                                <a href="#">유희왕</a>
+                                <ul class="m_sub_in">
+                                    <li><a href="#">유희왕 부스터박스</a></li>
+                                    <li><a href="#">스트럭처덱</a></li>
+                                    <li><a href="#">유희왕 프로텍터</a></li>
+                                </ul> <!-- sub_in -->
+                            </li>
+                        </ul> <!-- sub -->
+                    </li>
+
+                    <li>
+                        <a href="#" onclick="alert('준비 중 입니다.')">신규입고상품</a>
+                    </li>
+
+                    <li>
+                        <a href="#" onclick="alert('준비 중 입니다.')">재입고상품</a>
+                    </li>
+
+                    <li>
+                        <a href="#" onclick="alert('준비 중 입니다.')">추천상품</a>
+                    </li>
+
+                    <li>
+                        <a href="#" onclick="alert('준비 중 입니다.')">예약상품</a>
                     </li>
                 </ul> <!-- main -->
             </nav> <!-- nav -->
@@ -105,7 +157,7 @@
                 <h1>주력상품</h1>
 
                 <div class="main_in">
-                    <div class="main_item1">
+                    <div class="main_item1 e_box">
                         <div class="main_item_text">
                             <h4>카드파이트!! 뱅가드</h4>
                             <p>
@@ -116,7 +168,7 @@
                         </div> <!-- main_item_text -->
                     </div> <!-- main_item1 -->
 
-                    <div class="main_item2">
+                    <div class="main_item2 e_box">
                         <div class="main_item_text">
                             <h4>배틀스피리츠</h4>
                             <p>
@@ -135,15 +187,15 @@
                 <div class="new_i_text">
                     <h1 class="hide">신상품</h1>
                     <h1>신상품</h1>
-                    <h1><a href="#">+ 더보기</a></h1>
+                    <h1 class="plus"><a href="#" onclick="alert('준비 중 입니다.')">+ 더보기</a></h1>
                 </div> <!-- new_i_text -->
 
                 <div class="new_in">
-                    <div class="new_item1">
+                    <div class="new_item1 e_box">
                         <a href="#"><img src="img/신상_1.jpg" alt="신상_1"></a>
                     </div> <!-- new_item1 -->
 
-                    <div class="new_item2">
+                    <div class="new_item2 e_box">
                         <a href="#"><img src="img/신상_2.jpg" alt="신상_2"></a>
                     </div> <!-- new_item2 -->
 
@@ -155,7 +207,7 @@
                 <div class="fav_i_text">
                     <h1 class="hide">신상품</h1>
                     <h1>인기 상품</h1>
-                    <h1><a href="#">+ 더보기</a></h1>
+                    <h1 class="plus"><a href="#" onclick="alert('준비 중 입니다.')">+ 더보기</a></h1>
                 </div> <!-- new_i_text -->
                 
                 <ul class="fav_move">
@@ -163,7 +215,7 @@
                     <li class="fav_2"><a href="#">123</a></li>
                     <li class="fav_3"><a href="#">123</a></li>
                     <li class="fav_4"><a href="#">123</a></li>
-                    <li class="fav_5"><a href="#">123</a></li>
+                    <li class="fav_5"><a href="#">123</a></li>  
                     <li class="fav_6"><a href="#">123</a></li>
                     <li class="fav_7"><a href="#">123</a></li>
                 </ul> <!-- fav_move -->
@@ -176,7 +228,62 @@
                 
             </div> <!-- map -->
 
+            <div class="event">
+                <h2 class="event_t">이벤트</h2>
+    
+                <div class="event_contents">
+
+                    <div class="event_box1">
+        
+                        <form action="event.php">
+                            <!-- 1 -->
+                            <div class="form1">
+                                <input type="text" placeholder="이름" id="name">
+                                <input type="tel" placeholder="전화번호" id="tel">
+                                <input type="email" placeholder="Email" id="email">
+                                <input type="tel" placeholder="응모번호 ex) 1111-1111-1111" id="number">
+                            </div> <!-- form1 -->
+                        </form>
+
+                        <div class="event_btn">
+                            <a href="#" onclick="alert('신청이 완료되었습니다.')">신청하기</a>
+                        </div> <!-- event_btn -->
+        
+                    </div> <!-- event_box1 -->
+
+                    <div class="event_box2">
+                        
+                        <div class="event_item e_item">
+                            <a href="#"><img src="img/이벤트_1.png" alt="이벤트_1"></a>
+                        </div> <!-- event_item -->
+
+                    </div> <!-- event_box2 -->
+
+                    <div class="event_box3  e_box">
+                        
+                        <div class="event_ite2 e_item">
+                            <a href="#"><img src="img/이벤트_2.png" alt="이벤트_2"></a>
+                        </div> <!-- event_item -->
+
+                    </div> <!-- event_box2 -->
+
+                    <div class="event_box4  e_box">
+                        
+                        <div class="event_ite3 e_item">
+                            <a href="#"><img src="img/이벤트_3.jpg" alt="이벤트_3"></a>
+                        </div> <!-- event_item -->
+
+                    </div> <!-- event_box2 -->
+
+                </div> <!-- event_contents -->
+    
+            </div> <!-- event -->
+
+
+
         </section> <!-- contents -->
+
+
 
 
 
@@ -205,15 +312,24 @@
                 </div> <!-- f_left -->
 
                 <div class="f_right">
-                    <h1 class="f_logo"><img src="img/로고(흑백).png" alt="로고"></h1>
+                    <span></span>
+                    <h1 class="f_logo"><a href="#"><img src="img/로고(흑백).png" alt="로고"></a></h1>
                 </div> <!-- f_right -->
 
                 <div class="f_down">
-                    Copyright by shop © TCG 카드숍. all right reserved.
+                    <p>Copyright by shop © TCG 카드숍. all right reserved.</p>
+
+                    <ul class="t_link">
+                        <li class="h_img1"><a href="#">이미지</a></li>
+                        <li class="h_img2"><a href="#">이미지</a></li>
+                        <li class="h_img3"><a href="#">이미지</a></li>
+                    </ul> <!-- t_link -->
                 </div> <!-- f_down -->
 
             </div> <!-- f_in -->
         </footer> <!-- footer -->
+
+
 
         <div class="popup">
             <img src="img/팝업_1.jpg" alt="팝업">
@@ -228,7 +344,7 @@
                 <label for="chk">오늘 하루 보지않기</label>
             </div> <!-- c_box -->
 
-        </div>
+        </div> <!-- popup -->
 
     </div> <!-- wrap -->
 </body>

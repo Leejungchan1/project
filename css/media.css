@@ -30,7 +30,7 @@
         top: 10px;
     }
 
-    .header nav{
+    .header .nav{
         display: none;
     }
 
@@ -38,17 +38,30 @@
         display: block;
     }
 
+
+
+
+
+
+    /* slide_img --------------------------------------------------------*/
+    
+    .slide_img{
+        height: 300px;
+        border: none !important;
+        z-index: 100;
+    }
+    
     .left_move li{
         background-size: contain;
     }
 
-    .slide_img{
-        height: 300px;
-        /* border: 10px solid black; */
-        z-index: 100;
-    }
-    
 
+
+
+
+
+
+    /* main_item --------------------------------------------------------*/
 
     .main_in{
         flex-direction: column;
@@ -59,13 +72,25 @@
         margin-top: 30px;
     }
 
+
+
+
+
+
+
+
+
+
+    /* new_item --------------------------------------------------------*/
+
     .new_in{
         flex-direction: column;
         align-items: center;
     }
 
     .new_in div a img{
-        height: 220px;
+        width: 100% !important;
+        min-width: 390px;
     }
 
     .new_item2{
@@ -73,19 +98,81 @@
     }   
 
 
+
+
+
+
+
+
+
+    /* map --------------------------------------------------------*/
+
     .map iframe{
         width: 80%;
     }
 
-    .footer{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* event --------------------------------------------------------*/
+    .event_contents{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event_box1{
+        width: 100% !important;
+    }
+
+    .event_box2{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+
+    .event_box3{
+        width: 100% !important;
+    }
+
+    .event_box4{
+        width: 100% !important;
+    }
+
     
+
+    .e_item a img{
+        min-width: 390px;
+    }
+
+
+
+
+
+    /* footer --------------------------------------------------------*/    
+    .t_link{
+        display: none !important;
+    }
+
+
+
+
+
+
+
+    
+    /* popup --------------------------------------------------------*/
 
     .popup{
         display: none;
     }
 }
-
-    
-
-
-/* footer --------------------------------------------------------*/
