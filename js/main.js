@@ -79,11 +79,11 @@ $(function () {
         centerMode:true,
         centerPadding: "-10px",
         responsive: [{
-        breakpoint: 700,
+        breakpoint: 600,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "105px",
+                centerPadding: "80px",
                 }
             }
         ]
@@ -99,7 +99,7 @@ $(function () {
     })
 
 
-    
+
 
     //a태그 이벤트 중지
     $("a").click(function(event){
