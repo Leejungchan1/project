@@ -78,17 +78,25 @@ $(function () {
         arrows:false,
         slidesToShow:5,
         centerMode:true,
-        // centerPadding: "-10px",
+        centerPadding: "1px",
         responsive: [
             {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1,
+                    centerPadding: "25%",
+                }
+            },{
                 breakpoint: 400,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1,
                     centerPadding: "40px",
-                }
-            },
+                } 
+            }
         ]
 
     })

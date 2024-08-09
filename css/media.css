@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
 
     /* header ------------------------------------------------------- */
     .header .logo{
@@ -67,7 +67,7 @@
 
     /* main_item --------------------------------------------------------*/
     .main_item{
-        margin: -40px auto !important;
+        margin: 50px auto !important;
         /* border: 1px solid black; */
     }
 
@@ -78,12 +78,14 @@
 
     .main_item1{
         width: 100% !important;
+        background-size: cover;
 
     }
 
     .main_item2{
         width: 100% !important;
         margin-top: 30px;
+        background-size: cover;
     }
 
     .main_item_text p{
@@ -239,4 +241,27 @@
     .popup{
         display: none;
     }
-}
+} /* max-width:600px */
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    /* main_item --------------------------------------------------------*/
+    .main_item{
+        margin: -40px auto !important;
+
+    }
+
+
+    /* new_item --------------------------------------------------------*/
+    .new_item{
+        margin: 90px auto !important;
+    }
+
+} /* max-width:400px */
