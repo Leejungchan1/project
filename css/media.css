@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
 
     /* header ------------------------------------------------------- */
     .header .logo{
@@ -43,17 +43,21 @@
 
 
 
+
     /* slide_img --------------------------------------------------------*/
     
     .slide_img{
         height: 300px;
         border: none !important;
         z-index: 100;
+        /* border: 1px solid black; */
     }
     
     .left_move li{
         background-size: contain;
+        
     }
+
 
 
 
@@ -62,15 +66,31 @@
 
 
     /* main_item --------------------------------------------------------*/
+    .main_item{
+        margin: -40px auto !important;
+        /* border: 1px solid black; */
+    }
 
     .main_in{
         flex-direction: column;
         align-items: center;
     }
 
+    .main_item1{
+        width: 100% !important;
+
+    }
+
     .main_item2{
+        width: 100% !important;
         margin-top: 30px;
     }
+
+    .main_item_text p{
+        font-size: 4vw;
+    }
+
+
 
 
 
@@ -90,7 +110,7 @@
 
     .new_in div a img{
         width: 100% !important;
-        min-width: 390px;
+        min-width: 100px;
     }
 
     .new_item2{
@@ -99,6 +119,10 @@
 
 
 
+    
+    .fav_move .slick-slide{
+        margin: 50px 20px !important;
+    }
 
 
 
@@ -135,6 +159,10 @@
         width: 100% !important;
     }
 
+    .event_btn a{
+        font-size: 5vw !important;
+    }
+
     .event_box2{
         width: 100% !important;
         margin-top: 20px;
@@ -145,22 +173,58 @@
     }
 
     .event_box4{
+        margin: 0 0 20px 0 !important;
         width: 100% !important;
     }
 
     
 
     .e_item a img{
-        min-width: 390px;
+        min-width: 100px;
     }
 
 
 
 
 
-    /* footer --------------------------------------------------------*/    
+    /* footer --------------------------------------------------------*/
+    .f_up{
+        font-size: 2.5vw;
+    }    
+
     .t_link{
         display: none !important;
+    }
+
+    .f_left{
+        float: none !important;
+        margin: 0 auto;
+        width: 80% !important;
+        font-size: 4vw;
+    }
+
+    .f_logo img{}
+
+    .f_right{
+        float: none !important;
+        width: 85% !important;
+        margin: 0 auto;
+        justify-content: space-around !important;
+    }
+    
+    .f_right span{
+        display: none;
+    }
+
+
+    .f_down{
+        display: inline !important;
+        text-align: center;
+    }
+
+    .f_down p{
+        font-size: 3.5vw;
+        padding-bottom: 20px;
     }
 
 

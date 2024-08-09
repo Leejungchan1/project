@@ -73,19 +73,22 @@ $(function () {
         autoplay:true,
         autoplaySpeed:2000,
         pauseOnHover:true,
+        infinity:true,
         // swipe:true,
         arrows:false,
         slidesToShow:5,
         centerMode:true,
-        centerPadding: "-10px",
-        responsive: [{
-        breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerPadding: "80px",
+        // centerPadding: "-10px",
+        responsive: [
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1,
+                    centerPadding: "40px",
                 }
-            }
+            },
         ]
 
     })

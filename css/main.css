@@ -7,7 +7,9 @@ body{
 
 /* 본문 */
 /* wrap --------------------------------------------------------*/
-#wrap{}
+#wrap{
+    width: 100%;
+}
 
 
 
@@ -442,7 +444,7 @@ body{
 
 .main_item1{
     background-image: url(../img/s_1.jpg);
-    width: 400px;
+    width: 33%;
     height: 494px;
 }
 
@@ -459,7 +461,7 @@ body{
 
 .main_item2{
     background-image: url(../img/s_2.jpg);
-    width: 400px;
+    width: 33%;
     height: 494px;
 }
 
@@ -474,7 +476,7 @@ body{
 }
 
 .main_item_text{
-    width: 345px;
+    width: 100%;
     height: 400px;
     background-color:rgba(0, 0, 0, 0.5);
     border: 1px solid black;
@@ -486,6 +488,8 @@ body{
     transform: translate(-50%);
     transition: all 0.5s;
 }
+
+.main_item_text p{}
 
 .main_item1:hover .main_item_text{
     top: 150px;
@@ -558,6 +562,7 @@ body{
 .new_in div a{}
 
 .new_in div a img{
+    width: 100%;
     border-radius: 15px;
     border: 2px solid black;
 }
@@ -589,7 +594,7 @@ body{
 }
 
 .fav_i_text{
-    width: 98%;
+    width: 97%;
     margin-top: 1px;
     margin: 0 auto;
     display: flex;
@@ -645,8 +650,8 @@ body{
 }
 
 .fav_move .slick-slide{
-    height: 280px;
-    width: 200px !important;
+    /* height: 280px;
+    width: 200px !important; */
     margin: 50px 20px;
     filter: opacity(0.6);
     transition: all 0.5s;
@@ -655,9 +660,10 @@ body{
     filter: opacity(1);
     transform: scale(1.2);
     box-shadow: 0 0 10px black;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
+
 
 
 
@@ -832,7 +838,7 @@ body{
 
 .f_right{
     width: 50%;
-    height: 150px;
+    /* height: 150px; */
     float: right;
     display: flex;
     justify-content: space-between;
@@ -841,10 +847,12 @@ body{
 
 }
 
-.f_logo{}
+.f_logo{
+    width: 50%;
+}
 
 .f_logo img{
-    height: 120px;
+    width: 100%;
 }
 
 .f_down{
